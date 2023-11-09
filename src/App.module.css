@@ -1,0 +1,42 @@
+/* src/App.module.css */
+
+.App-header {
+  /* styles for the header */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+li.user {
+  color: blue;
+}
+
+li.assistant {
+  color: green;
+}
+
+form {
+  display: flex;
+}
+
+input,
+textarea {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.button-container button {
+  padding: 10px;
+  margin-right: 20px; /* 20px space between buttons */
+}
+
+.button-container button:last-child {
+  margin-right: 0; /* No space after the last button */
+}
