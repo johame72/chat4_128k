@@ -54,7 +54,7 @@ const ChatComponent = () => {
     try {
       const startTime = Date.now();
       const response = await openai.post('chat/completions', {
-        model: 'gpt-4-1106-preview',
+        model: 'gpt-4-0125-preview',
         messages: updatedMessages.map(msg => ({ role: msg.role, content: msg.content })),
       });
       const endTime = Date.now();
